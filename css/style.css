@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;500&display=swap');
 
 *{
   margin: 0;
@@ -158,9 +158,11 @@ NIVEL================================*/
   font-size: 18px;
 }
 
-.nivel-calificable{
+.nivel-calificable a{
   text-align-last: center;
   margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .nivel-activo img{
@@ -189,11 +191,11 @@ FUNCION================================*/
   padding: 12px 14px;
 }
 
-.pasos .col-lg-3{
+.pasos .col-md-3{
   background-color: #004422;
 }
 
-.pasos .col-lg-3 p{
+.pasos .col-md-3 p{
   font-size: 28px;
   color: white;
   text-align: center;
@@ -225,7 +227,6 @@ DIFERENCIA============================*/
   text-align: left;
   background-color: #00CA50;
   padding: 12px;
-  font-size: 16px;
   border-radius: 2px;
   color: white;
   margin-bottom: 16px;
@@ -285,6 +286,7 @@ CUMULO================================*/
   border-radius: 12px;
   height: 28px;
   font-weight: 700;
+  text-align: center;
 }
 
 .hr-especial{
@@ -352,7 +354,7 @@ CUMULO================================*/
 .col-sm-1{width: 8.33333333%;}
 }
 
-@media(max-width:767px){
+@media(max-width:768px){
 .col-xs-12{width: 100%;}
 .col-xs-11{width: 91.66666666%;}
 .col-xs-10{width: 83.33333333%;}
@@ -365,4 +367,130 @@ CUMULO================================*/
 .col-xs-3{width: 25%;}
 .col-xs-2{width: 16.66666666%;}
 .col-xs-1{width: 8.33333333%;}
+
+/*=========================================
+============================Seccion nivel*/
+.nivel{
+  position: relative;
+  height: 390px;
+  padding: 14px 14px auto 14px;
+}
+
+.nivel-contenedor{
+  width: 328px;
+  height: 250px;
+  padding: 0;
+}
+
+.nivel-contenedor-titulo{
+  margin-left: -16px;
+  border-radius: 8px 8px 0 0;
+}
+
+.izquierda-parrafo{
+  height: auto;
+  padding: 12px 0;
+}
+
+.izquierda-parrafo a{
+  margin-bottom: 13px;
+}
+
+.izquierda-parrafo ul{
+  position: absolute;
+  top: 282px;
+  width: 328px;
+  padding: 12px 26px;
+  margin-left: -16px;
+}
+
+.nivel-contenedor-derecha{
+  margin-top: -38px;
+}
+
+.nivel-calificable{
+  text-align-last: center;
+  margin-bottom: 25px;
+}
+
+/*=========================================
+============================Seccion funcion*/
+.funcion h2{
+  margin: 20px 0;
+}
+
+.funcion-pasos{
+  flex-direction: column;
+  width: 288px;
+}
+
+.pasos{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.pasos-contenido{
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.433);
+  padding: 8px;
+}
+
+.pasos .col-xs-3{
+  background-color: #004422;
+}
+
+.pasos .col-xs-3 p{
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+
+/*=========================================
+============================Seccion funcion*/
+.diferencia-titulo{
+  margin: 0 auto 28px auto;
+}
+
+.diferencia-tipos{
+  width: 328px;
+  font-display: column;
+}
+
+.tipos{
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.tipo-libra p{
+  margin-bottom: 20px;
+}
+
+.diferencia .animos{
+  margin: 15px 0;
+}
+
+/*======================================
+========================seccion cumulo*/
+.cumulo-contenedor{
+  width: 328px;
+}
+
+.cumulo-parrafo{
+  margin: 18px 0;
+}
+
+.cumulo-opciones .cumulo-detalle{
+  font-size: 11px;
+}
+
+.cumulo-opciones .cumulo-precio{
+  padding: 8px ;
+  font-size: 11px;
+}
+
+.hr-especial{
+  margin: 14px 0;
+  height: 2px;
+}
+
 }
