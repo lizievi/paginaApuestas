@@ -6,203 +6,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Display</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
 </head>
 <body>
   <!--ÁÉÍÓÚáéíóúñ¡!-->
-  <div class="fila nivel">
-    <div class="col-lg-4">
-      <div class="fila nivel-titulo">
-        <div class="col-lg-12">
-          <h2>TU NIVEL ES TITÁN</h2>        
+  <section class="fila nivel">
+    <div class="fila nivel-contenedor">
+      <div class="col-lg-6 nivel-contenedor-izquierda">
+        <div class="nivel-contenedor-titulo">
+          <h1>TU NIVEL ES TITÁN</h1> 
+          <img src="./img/titan-level.jpg" alt="">       
         </div>
-      </div>
-      <div class="fila nivel-parrafo"> 
-        <div class="col-lg-12">
-          <p><a href="#"><b>LIBRAS TOTALES</b></a>
-          <strong class="librasT">317,441</strong><i class="importante">i</i> </p>
-        </div>         
-      </div>
-      <div class="fila indicaciones">
-        <div class="col-lg-11">
+        <div class="izquierda-parrafo">           
+          <a href="#">LIBRAS TOTALES</a>
+          <span>317,441</span><i class="importante">i</i> 
           <ul>
-            <li>. Necesitar 400,000 libras calificables para subir al siguiente nivel</li>
-            <li>. Tienes hata el 31 de diciembre del 2023 para subir de nivel</li>
-          </ul>
+            <li>Necesitar 400,000 libras calificables para subir al siguiente nivel</li>
+            <br>
+            <li>Tienes hata el 31 de diciembre del 2023 para subir de nivel</li>
+          </ul>                  
         </div>
+      </div>
+      <div class="col-lg-6 nivel-contenedor-derecha">          
+        <p class="derecha-parrafo">Progreso de nivel: </p>          
+        <div class="fila contenedor-progreso">
+          <div class="fila progreso"></div>
+        </div>       
+        <div class="fila nivel-contenedor-rango">
+          <div><p>TITÁN</p></div>
+          <div><p class="rango-limite">0/400,000</p></div>
+          <div><p>DIOS</p></div>
+        </div>
+        <p class="nivel-calificable"><a href="#">Libras calificables</a><i class="importante">i</i></p>        
+        <div class="fila nivel-activo">
+          <img src="./img/active-titan.jpg" alt="Nivel: Titán">
+        </div>  
       </div>
     </div>
-    <div class="col-lg-4">
-      <div class="fila progreso">
-        <div class="col-lg-12">
-          <p>Progreso de nivel: </p>
-        </div>
-        <div class="col-lg-12">
-          <progress value="0" min="0"  max="400,000"></progress>
-        </div>
-      </div>
-      <div class="fila progreso-nivel">
-        <div class="col-lg-4 rango-inicial"><p><b>TITÁN</b></p></div>
-        <div class="col-lg-4 rango"><p><b>0/400,000</b></p></div>
-        <div class="col-lg-4 rango-final"><p><b>DIOS</b></p></div>
-      </div>
-      <div class="fila">
-        <div class="col-lg-12">
-          <p><a href="#">Libras calificables</a><i class="importante">i</i></p>
-        </div>
-      </div>
-      <div class="fila">
-        <div class="fila">
-          <hr>
-        </div>
-        <div class="col-lg-2">
-          <img src="./img/guerrero-level.jpg" alt="Nivel: Guerrero">
-        </div>
-        <div class="col-lg-2">
-          <img src="./img/espartano-level.jpg" alt="Nivel: Espartano">
-        </div>
-        <div class="col-lg-2">
-          <img src="./img/heroe-level.jpg" alt="Nivel: Heroe">
-        </div>
-        <div class="col-lg-2">
-          <img src="./img/rey-level.jpg" alt="Nivel: Rey">
-        </div>
-        <div class="col-lg-2 nivel-actual">
-          <img src="./img/titan-level.jpg" alt="Nivel: Titán">
-        </div>
-        <div class="col-lg-2">
-          <img src="./img/dios-level.jpg" alt="Nivel: Dios">
-        </div>
-      </div>
+  </section>
 
-    </div>
-  </div>
-
-  <div class="fila funcion">
+  <section class="fila funcion">    
     <div class="fila">
-      <div class="col-lg-8">
-        <h2>¿CÓMO FUNCIONA?</h2>
+      <h2>¿CÓMO FUNCIONA?</h2>
+    </div>   
+    <div class="fila funcion-pasos">
+      <div class="fila pasos">
+        <div class="col-lg-3 pasos-contenido"><p>01</p></div>
+        <div class="col-lg-9 pasos-contenido"><p>Créate una cuenta Olimpo</p></div>
+      </div>
+      <div class="fila pasos">
+        <div class="col-lg-3 pasos-contenido"><p>02</p></div>
+        <div class="col-lg-9 pasos-contenido"><p>Acumula libros por cada apuesta o juego en la web de olimpo</p></div>
+      </div>
+      <div class="fila pasos">
+        <div class="col-lg-3 pasos-contenido"><p>03</p></div>
+        <div class="col-lg-9 pasos-contenido"><p>Empieza a disfrutar de los beneficios del plan <strong>Lealtad de los Dioses</strong></p></div>
       </div>
     </div>
-    <div class="col-lg-3">
-      <div class="fila pasos">
-        <div class="col-lg-2 pasos-contenido"><p>01</p></div>
-        <div class="col-lg-10 pasos-contenido"><p>Créate una cuenta Olimpo</p></div>
+  </section>
+
+  <section class="fila diferencia">
+    <div class="col-lg-12">
+      <h2 class="diferencia-titulo">DIFERENCIA ENTRE LIBRAS TOTALES Y LIBRAS CALIFICABLES</h2>
+    </div>
+    
+    <div class="fila diferencia-tipos">
+      <div class="col-lg-5 tipo-libra">
+        <h3 class="tipos">LAS LIBRAS CALIFICABLES</h3>
+        <p>Tienen vigencia hasta el 31 de diciembre del presente año, y te ayudaran a subir de nivel en el programa <strong>Lealtad de los dioses</strong>, dandote muchos beneficios.</p>
+      </div>
+      <div class="col-lg-5 tipo-libra">
+        <h3 class="tipos">LAS LIBRAS TOTALES</h3>
+        <p>No tienen fecha de vencimiento y pronto podrán ofrecerte muchos beneficios adicionales.</p>
       </div>
     </div>
 
-    <div class="col-lg-3">
-      <div class="fila pasos">
-        <div class="col-lg-2 pasos-contenido"><p>02</p></div>
-        <div class="col-lg-10 pasos-contenido"><p>Acumula libros por cada apuesta o juego en la web de olimpo</p></div>
-      </div>
-    </div>
-
-    <div class="col-lg-3">
-      <div class="fila pasos">
-        <div class="col-lg-2 pasos-contenido"><p>03</p></div>
-        <div class="col-lg-10 pasos-contenido"><p>Empieza a disfrutar de los beneficios del plan <strong>Lealtad de los Dioses</strong></p></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="fila diferencia">
-    <div class="fila">
-      <div class="col-lg-8">
-        <h2>DIFERENCIA ENTRE LIBRAS TOTALES Y LIBRAS CALIFICABLES</h2>
-      </div>
-    </div>
-    <div class="col-lg-4 tipoLibra">
-      <h3 class="calificables">LAS LIBRAS CALIFICABLES</h3>
-      <p>Tienen vigencia hasta el 31 de diciembre del presente año, y te ayudaran a subir de nivel en el programa <strong>Lealtad de los dioses</strong>, dandote muchos beneficios.</p>
-    </div>
-    <div class="col-lg-4 tipoLibra">
-      <h3 class="totales">LAS LIBRAS TOTALES</h3>
-      <p>No tienen fecha de vencimiento y pronto podrán ofrecerte muchos beneficios adicionales.</p>
-    </div>
     <div class="fila animos">
-      <div class="col-lg-4">
+      <div class="animos-parrafo">
         <p><b>¡Consigue libras de Olimpo y prepárate para grandes sorpresas!</b></p>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="fila cumulo">
-    <div class="fila">
-      <div class="col-lg-8">
-        <h2>¿CÓMO ACUMULO LIBRAS?</h2>
-        <p class="cumulo-parrafo">Acumula libras calificables este año segun las siguientes condiciones:</p>
-        <div class="fila">
-          <div class="col-lg-6 izquierda">
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Tragamonedas(casino)</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/2 >> 1 LIBRA</p>
-              </div>
-            </div>
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Mesas en vivo (casino en vivo)</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/6 >> 1 LIBRA</p>
-              </div>
-            </div>
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Juegos especificos Casino & Casino en vivo ***</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/5 >> 1 LIBRA</p>
-              </div>
-            </div>
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Virtuales</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/2 >> 1 LIBRA</p>
-              </div>
-            </div>
+  <section class="fila cumulo">
+    <div class="col-lg-12">
+      <h2>¿CÓMO ACUMULO LIBRAS?</h2>
+    </div>
+
+    <div class="cumulo-contenedor">
+      <p class="cumulo-parrafo">Acumula libras calificables este año segun las siguientes condiciones:</p>
+      <div class="fila cumulo-ambos">
+        <div class="cumulo-contenedor-lado">
+          <div class="fila cumulo-opciones">            
+            <p class="col-lg-7 cumulo-detalle">Tragamonedas(casino)</p>            
+            <p class="col-lg-5 cumulo-precio">Cada S/2 >> 1 LIBRA</p>
           </div>
-          <div class="col-lg-6 derecha">
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Apuestas Simples/Sistema</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/2 >> 1 LIBRA</p>
-              </div>
-            </div>
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Apuestas combinadas</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/1 >> 1 LIBRA</p>
-              </div>
-            </div>
-            <div class="fila opciones hr-especial">
-              <hr>
-            </div>
-            <div class="fila opciones">
-              <div class="col-lg-7">
-                <p class="detalle">Polla olimpo</p>
-              </div>
-              <div class="col-lg-5">
-                <p class="precio">Cada S/2 >> 10 LIBRA</p>
-              </div>
-            </div>
+          <div class="fila cumulo-opciones">
+            <p class="col-lg-7 cumulo-detalle">Mesas en vivo (casino en vivo)</p>
+            <p class="col-lg-5 cumulo-precio">Cada S/6 >> 1 LIBRA</p>       
+          </div>
+          <div class="fila cumulo-opciones">
+            <p class="col-lg-7 cumulo-detalle">Juegos especificos Casino & Casino en vivo ***</p>
+            <p class="col-lg-5 cumulo-precio">Cada S/5 >> 1 LIBRA</p>           
+          </div>
+          <div class="fila cumulo-opciones">
+            <p class="col-lg-7 cumulo-detalle">Virtuales</p>
+            <p class="col-lg-5 cumulo-precio">Cada S/2 >> 1 LIBRA</p>
           </div>
         </div>
-        <p class="cumulo-parrafo">Estas libras te permitiran subir de nivel hasta el 31 de diciembre</p>
+        <div class="cumulo-contenedor-lado">
+          <div class="fila cumulo-opciones">
+            <p class="col-lg-7 cumulo-detalle">Apuestas Simples/Sistema</p>
+            <p class="col-lg-5 cumulo-precio">Cada S/2 >> 1 LIBRA</p>
+          </div>
+          <div class="fila cumulo-opciones">
+            <p class="col-lg-7 cumulo-detalle">Apuestas combinadas</p>
+            <p class="col-lg-5 cumulo-precio">Cada S/1 >> 1 LIBRA</p>
+          </div>
+          <div class="fila cumulo-opciones hr-especial">
+            <hr>
+          </div>
+          <div class="fila cumulo-opciones">
+            <p class="col-lg-7 cumulo-detalle">Polla olimpo</p>
+            <p class="col-lg-5 cumulo-precio">Cada S/2 >> 10 LIBRA</p>
+          </div>
+        </div>
       </div>
+      <p class="cumulo-parrafo">Estas libras te permitiran subir de nivel hasta el 31 de diciembre</p>
     </div>
-  </div>
+
+  </section>
 </body>
 </html>
-
 
 
 

@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 *{
   margin: 0;
   padding: 0;
-  list-style: none;
-  font-family: 'Patrick Hand', cursive;
+  /*list-style: none;*/
+  font-family: 'Lato', sans-serif;
   /*text-decoration: none;*/
   box-sizing: border-box;
   color: #004422;
+  font-size: 12px;
 }
 
 [class*='col-']{ 
   /*border: 1px solid black;*/
-  text-align: center;
+  text-align: left;
 }
 
 .fila{
@@ -20,254 +21,281 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
   justify-content:center;
+  text-align: left;
 }
 
 .importante{
   display: inline-block;
   border-radius: 50%;
   background-color: #004422;
-  width: 18px;
-  height: 18px;
-  line-height: 18px;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
   color: white;
   text-align: center;
   margin: 0 10px;
 }
 
+h1, h2{
+  font-size: 16px;
+  color: #3CC666;
+  margin: 25px 0 30px 0;
+}
+
+h2{
+  text-align: center;
+}
+
 /*======================================
 NIVEL================================*/
-
-.nivel-titulo{
-  background-color: #00bb89;
-  border-radius: 8px 0 0 0;
-  padding: 4px 20px;
-  /*#aee2be #0b5f45 #38c866 #f5f437*/
-}
-
 .nivel{
-  background-color: #81dfc6c8;
+  background-color: #CFF8DC;
+  padding: 19px 0; 
+  height: 241px;
 }
 
-.nivel .col-lg-4{
-  background-color: #fff;
-  margin: 10px 0;
-  padding-bottom: 10px;
-}
-
-.nivel-titulo h2{
-  text-align: left;
-} 
-
-.nivel-parrafo p{
-  text-align: left;
-  padding: 20px;
-}
-
-.librasT{
-  color: black;
-  font-size: 18px;
-  margin-left: 10px;
-}
-
-.indicaciones ul{
-  text-align: left;
-  background-color: #aee2be;
-  padding: 20px;
-  margin: auto;
+.nivel-contenedor{
+  width: 718px;
+  background-color: white;
   border-radius: 8px;
 }
 
-.progreso{
-  padding: 20px 20px 0 20px;
+.nivel-contenedor-izquierda{
+  padding: 12px 16px 20px 16px;
+  margin-top: -25px;
 }
 
-.progreso p{
-  text-align: left;
+.nivel-contenedor-titulo{
+  width: 328px;
+  height: 36px;
+  background-color: #00bb89;
+  margin-left: -16px;
+  margin-top: -12px;
+  border-radius: 8px 0 0 0;
+  padding-left: 14px;
 }
 
-.progreso progress{
-  width: 100%;
-  height: 26px;
-  margin: 0;
+.nivel-contenedor-titulo h1{
+  color: #004422;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
 }
 
-.progreso-nivel p{
-  padding: 0 20px;
+.nivel-contenedor-titulo img{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: -50px;
+  margin-left: 250px;
 }
 
-.rango-inicial p{
-  text-align: left;
-  font-size: 12px;
+.izquierda-parrafo{
+  height: 146px;
+  padding: 14px 14px 0 0;
 }
 
-.rango p b{
-  color: #00bb89;
+.izquierda-parrafo a{
+  display: inline-block;
+  margin-bottom: 22px;
 }
 
-.rango-final p{
-  text-align: right;
-  font-size: 12px;
-
+.izquierda-parrafo span{
+  font-size: 16px;
+  padding: 0 2px 0 14px;
+  font-weight: 700;
 }
 
-hr {
-  width: 85%;
-  height: 4px;
-  background-color:  #004422;
-  border-radius: 2px;
+.izquierda-parrafo ul{
+  padding: 12px 26px;
+  background-color: #AEE1BE;
+  border-radius: 8px;
+}
+
+.nivel-contenedor-derecha{
+  padding: 14px 28px 16px 19px;
+}
+
+.derecha-parrafo{
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.contenedor-progreso{
+  border-radius: 16px;
+  height: 16px;
+  border: 1px solid #04822A;
   margin-bottom: 4px;
 }
 
-.nivel-actual img{
-  border-radius: 50%;
-  border: 2px solid  #004422;
+.progreso{
+  justify-content: start;
+}
+
+.progreso::before{
+  content: "";
+  height: 14px;
+  width: 19px;
+  border-radius: 14px;
+  background-color: #3CC666; 
+}
+
+.nivel-contenedor-rango{
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nivel-contenedor-rango p{
+  font-weight: 700;  
+}
+
+.rango-limite{
+  color: #3CC666;
+  font-size: 18px;
+}
+
+.nivel-calificable{
+  text-align-last: center;
+  margin-bottom: 34px;
+}
+
+.nivel-activo img{
+  width: 100%;
 }
 
 /*======================================
 FUNCION================================*/
-.funcion{
-  background-color: #dadada;
-}
 
-.funcion h2{
-  color: #3CC666;
-  margin: 40px 0 20px 0;
+.funcion-pasos{
+  width: 912px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 30px 0;
 }
 
 .pasos{
-  padding: 20px;
-  height: 100%;
+  width: 32%;
 }
 
 .pasos-contenido{
   display: flex;
   align-items: center;
-  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.433);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.433);
   border-left: none;
+  padding: 12px 14px;
 }
 
-.pasos .col-lg-2{
+.pasos .col-lg-3{
   background-color: #004422;
 }
 
-.pasos .col-lg-2 p{
-  color: white;
+.pasos .col-lg-3 p{
   font-size: 28px;
+  color: white;
+  text-align: center;
 }
 
 .pasos-contenido p{
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 /*======================================
-DIFERENCIA================================*/
-.diferencia{
-  background-color: #dadada;
+DIFERENCIA============================*/
+.diferencia {
+  justify-content: center;
 }
 
-.diferencia h2{
-  color: #3CC666;
-  margin: 40px 0 20px 0;
+.diferencia-titulo{
+  width: 358px;
+  margin: 28px auto;
 }
 
-.tipoLibra p{
-  padding: 0 50px;
+.diferencia-tipos{
+  width: 718px;
+  justify-content: space-between;
 }
 
-h3{
+.tipos{
+  display: inline-block;
   text-align: left;
   background-color: #00CA50;
-  padding: 4px 25px;
-  margin-left: 25px;
+  padding: 12px;
   font-size: 16px;
-  border-radius: 8px;
+  border-radius: 2px;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
-.calificables{
-  width: 40%;
-}
-
-.totales{
-  width: 34%;
-}
-
-.tipoLibra p{
+.tipo-libra p{
+  font-size: 14px;
   text-align: left;
 }
 
 .diferencia .animos{
-  margin: 20px 0;
+  margin: 40px 0;
+}
+
+.animos-parrafo{
+  width: 262px;
+  text-align: center;
 }
 
 /*======================================
 CUMULO================================*/
-
+.cumulo-contenedor{
+  width: 718px;
+}
 .cumulo h2{
-  color: #3CC666;
-  margin: 40px 0 20px 0;
+  margin-bottom: 0;
 }
 
 .cumulo-parrafo{
   text-align: left;
-  margin: 20px 0;
-  margin-left: 40px;
-}
-
-.cumulo .izquierda{
-  padding-right: 20px;
-}
-
-.opciones{
-  height: 50px;
-  align-items: center;
-}
-
-.opciones .col-lg-5{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.opciones .detalle{
-  text-align: left;
-  padding: 5px 0 5px 40px;
-  font-weight: 700;
-}
-
-.derecha .detalle{
-  padding-left: 60px;
-}
-
-.opciones .precio{
-  padding: 3px 10px;
-  width: 70%;
-  background-color: #f5f437;
-  border-radius: 12px;
-  height: 32px;
-  font-weight: 700;
+  margin: 34px 0;
   font-size: 14px;
 }
 
+.cumulo-ambos{
+  justify-content: space-between;
+}
+
+.cumulo-contenedor-lado{
+  width: 334px;
+}
+
+.cumulo-opciones{
+  height: 28px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cumulo-opciones .cumulo-detalle{
+  text-align: left;
+  font-weight: 700;
+}
+
+.cumulo-opciones .cumulo-precio{
+  padding: 6px 10px;
+  background-color: #f5f437;
+  border-radius: 12px;
+  height: 28px;
+  font-weight: 700;
+}
+
 .hr-especial{
-  display: flex;
-  justify-content: flex-end;
-  height: 20px;
-}
-
-.opciones hr{
-  width: 88%;
-  margin-right: 0;
-  padding-right: 0;
+  height: 2px;
   background-color: #3CC666;
+  border-radius: 2px;
+  margin: 16px 0;
 }
 
-
-
-
+/*==================================FILAS Y COLUMNAS
+====================================================*/
 @media(min-width:1200px){
 .col-lg-12{width: 100%;}
 .col-lg-11{width: 91.66666666%;}
