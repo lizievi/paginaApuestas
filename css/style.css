@@ -25,7 +25,7 @@
   text-align: left;
 }
 
-.importante{
+.nivel__icono-importante{
   display: inline-block;
   border-radius: 50%;
   background-color: #004422;
@@ -55,18 +55,18 @@ NIVEL================================*/
   height: 241px;
 }
 
-.nivel-contenedor{
+.nivel__contenedor{
   width: 718px;
   background-color: white;
   border-radius: 8px;
 }
 
-.nivel-contenedor-izquierda{
+.nivel__izquierda{
   padding: 12px 16px 20px 16px;
   margin-top: -25px;
 }
 
-.nivel-contenedor-titulo{
+.nivel__titulo{
   width: 328px;
   height: 36px;
   background-color: #00bb89;
@@ -76,14 +76,14 @@ NIVEL================================*/
   padding-left: 14px;
 }
 
-.nivel-contenedor-titulo h1{
+.nivel__titulo h1{
   color: #004422;
   font-size: 16px;
   font-weight: 700;
   line-height: 36px;
 }
 
-.nivel-contenedor-titulo img{
+.nivel__titulo img{
   position: absolute;
   width: 50px;
   height: 50px;
@@ -93,49 +93,49 @@ NIVEL================================*/
   margin-left: 250px;
 }
 
-.izquierda-parrafo{
+.nivel__parrafo-izquierda{
   height: 146px;
   padding: 14px 14px 0 0;
 }
 
-.izquierda-parrafo a{
+.nivel__parrafo-izquierda a{
   display: inline-block;
   margin-bottom: 22px;
 }
 
-.izquierda-parrafo span{
+.nivel__parrafo-izquierda span{
   font-size: 16px;
   padding: 0 2px 0 14px;
   font-weight: 700;
 }
 
-.izquierda-parrafo ul{
+.nivel__parrafo-izquierda ul{
   padding: 12px 26px;
   background-color: #AEE1BE;
   border-radius: 8px;
 }
 
-.nivel-contenedor-derecha{
+.nivel__derecha{
   padding: 14px 28px 16px 19px;
 }
 
-.derecha-parrafo{
+.nivel__parrafo-derecha{
   display: inline-block;
   margin-bottom: 8px;
 }
 
-.contenedor-progreso{
+.nivel__contenedor-progreso{
   border-radius: 16px;
   height: 16px;
   border: 1px solid #04822A;
   margin-bottom: 4px;
 }
 
-.progreso{
+.nivel__contenido-progreso{
   justify-content: start;
 }
 
-.progreso::before{
+.nivel__contenido-progreso::before{
   content: "";
   height: 14px;
   width: 19px;
@@ -143,36 +143,36 @@ NIVEL================================*/
   background-color: #3CC666; 
 }
 
-.nivel-contenedor-rango{
+.nivel__rango{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.nivel-contenedor-rango p{
+.nivel__rango p{
   font-weight: 700;  
 }
 
-.rango-limite{
+.nivel__rango-avance{
   color: #3CC666;
   font-size: 18px;
 }
 
-.nivel-calificable a{
+.nivel__libras-calificables a{
   text-align-last: center;
   margin-bottom: 34px;
   font-weight: 500;
   font-size: 14px;
 }
 
-.nivel-activo img{
+.nivel__activo img{
   width: 100%;
 }
 
 /*======================================
 FUNCION================================*/
 
-.funcion-pasos{
+.funcion__contenedor{
   width: 912px;
   display: flex;
   justify-content: space-between;
@@ -180,11 +180,11 @@ FUNCION================================*/
   margin: 0 20px;
 }
 
-.pasos{
+.funcion__pasos{
   width: 32%;
 }
 
-.pasos-contenido{
+.funcion__contenido-pasos{
   display: flex;
   align-items: center;
   box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.433);
@@ -192,17 +192,17 @@ FUNCION================================*/
   padding: 12px 14px;
 }
 
-.pasos .col-sm-3{
+.funcion__pasos .col-sm-3{
   background-color: #004422;
 }
 
-.pasos .col-sm-3 p{
+.funcion__pasos .col-sm-3 p{
   font-size: 28px;
   color: white;
   text-align: center;
 }
 
-.pasos-contenido p{
+.funcion__contenido-pasos p{
   width: 100%;
   text-align: left;
 }
@@ -213,17 +213,17 @@ DIFERENCIA============================*/
   justify-content: center;
 }
 
-.diferencia-titulo{
+.diferencia__titulo{
   width: 358px;
   margin: 28px auto;
 }
 
-.diferencia-tipos{
+.diferencia__contenedor{
   width: 718px;
   justify-content: space-between;
 }
 
-.tipos{
+.diferencia__libras-titulo{
   display: inline-block;
   text-align: left;
   background-color: #00CA50;
@@ -233,56 +233,56 @@ DIFERENCIA============================*/
   margin-bottom: 16px;
 }
 
-.tipo-libra p{
+.diferencia__libras p{
   font-size: 14px;
   text-align: left;
 }
 
-.diferencia .animos{
+.diferencia__caja-animos{
   margin: 40px 0;
 }
 
-.animos-parrafo{
+.diferencia__parrafo-animos{
   width: 262px;
   text-align: center;
 }
 
 /*======================================
 CUMULO================================*/
-.cumulo-contenedor{
+.cumulo__contenedor{
   width: 718px;
 }
 .cumulo h2{
   margin-bottom: 0;
 }
 
-.cumulo-parrafo{
+.cumulo__parrafo{
   text-align: left;
   margin: 34px 0;
   font-size: 14px;
 }
 
-.cumulo-ambos{
+.cumulo__caja{
   justify-content: space-between;
 }
 
-.cumulo-contenedor-lado{
+.cumulo__columna{
   width: 334px;
 }
 
-.cumulo-opciones{
+.cumulo__opciones{
   height: 28px;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.cumulo-opciones .cumulo-detalle{
+.cumulo__opciones .cumulo__detalle{
   text-align: left;
   font-weight: 700;
 }
 
-.cumulo-opciones .cumulo-precio{
-  padding: 6px 10px;
+.cumulo__opciones .cumulo__precio{
+  padding: 6px;
   background-color: #f5f437;
   border-radius: 12px;
   height: 28px;
@@ -290,11 +290,69 @@ CUMULO================================*/
   text-align: center;
 }
 
-.hr-especial{
+.cumulo__hr{
   height: 2px;
   background-color: #3CC666;
   border-radius: 2px;
   margin: 16px 0;
+}
+
+/*==================================beneficios
+====================================================*/
+.beneficios__contenedor{
+  margin-bottom: 40px;
+  padding: 14px;
+}
+.beneficios__caja{
+  width: 570px;
+}
+
+.beneficios__parrafo{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.beneficios__cabezote p{
+  background-color: #00CA50;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  margin: 4px;
+  border-radius: 4px;
+  height: 26px;
+  padding: 5px 0;
+}
+
+.beneficios__cabezote .col-sm-5 p {
+  font-size: 14px;
+}
+
+.beneficios__fila .col-sm-5 {
+  display: flex;
+  align-items: center;
+}
+
+.beneficios__fila .col-sm-2{
+  border: 1px #00CA50 solid;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beneficios__fila .col-sm-2 img{
+  width: 30px;
+  height: 30px;
+  
+}
+.beneficios__fila .col-sm-2 p {
+  font-size: 16px;
+}
+
+.beneficios__fila .beneficios__p-pequenio p {
+  font-size: 8px;
+  text-align: center;
 }
 
 /*==================================FILAS Y COLUMNAS
@@ -336,27 +394,27 @@ CUMULO================================*/
   padding: 14px 14px auto 14px;
 }
 
-.nivel-contenedor{
+.nivel__contenedor{
   width: 328px;
   height: 250px;
   padding: 0;
 }
 
-.nivel-contenedor-titulo{
+.nivel__titulo{
   margin-left: -16px;
   border-radius: 8px 8px 0 0;
 }
 
-.izquierda-parrafo{
+.nivel__parrafo-izquierda{
   height: auto;
   padding: 12px 0;
 }
 
-.izquierda-parrafo a{
+.nivel__parrafo-izquierda a{
   margin-bottom: 13px;
 }
 
-.izquierda-parrafo ul{
+.nivel__parrafo-izquierda ul{
   position: absolute;
   top: 282px;
   width: 328px;
@@ -364,11 +422,11 @@ CUMULO================================*/
   margin-left: -16px;
 }
 
-.nivel-contenedor-derecha{
+.nivel__derecha{
   margin-top: -38px;
 }
 
-.nivel-calificable{
+.nivel__libras-calificables{
   text-align-last: center;
   margin-bottom: 25px;
 }
@@ -379,27 +437,27 @@ CUMULO================================*/
   margin: 20px 0;
 }
 
-.funcion-pasos{
+.funcion__contenedor{
   flex-direction: column;
   width: 288px;
 }
 
-.pasos{
+.funcion__pasos{
   width: 100%;
   height: 50px;
   margin-bottom: 10px;
 }
 
-.pasos-contenido{
+.funcion__contenido-pasos{
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.433);
   padding: 8px;
 }
 
-.pasos .col-xs-3{
+.funcion__pasos .col-xs-3{
   background-color: #004422;
 }
 
-.pasos .col-xs-3 p{
+.funcion__pasos .col-xs-3 p{
   font-size: 28px;
   color: white;
   text-align: center;
@@ -407,50 +465,98 @@ CUMULO================================*/
 
 /*=========================================
 ============================Seccion funcion*/
-.diferencia-titulo{
+.diferencia__titulo{
   margin: 0 auto 28px auto;
 }
 
-.diferencia-tipos{
+.diferencia__contenedor{
   width: 328px;
   font-display: column;
 }
 
-.tipos{
+.diferencia__libras-titulo{
   padding: 7px;
   margin-bottom: 10px;
 }
 
-.tipo-libra p{
+.diferencia__libras p{
   margin-bottom: 20px;
 }
 
-.diferencia .animos{
+.diferencia__caja-animos{
   margin: 15px 0;
 }
 
 /*======================================
 ========================seccion cumulo*/
-.cumulo-contenedor{
+.cumulo__contenedor{
   width: 328px;
 }
 
-.cumulo-parrafo{
+.cumulo__parrafo{
   margin: 18px 0;
 }
 
-.cumulo-opciones .cumulo-detalle{
+.cumulo__opciones .cumulo__detalle{
   font-size: 11px;
 }
 
-.cumulo-opciones .cumulo-precio{
+.cumulo__opciones .cumulo__precio{
   padding: 8px ;
   font-size: 11px;
 }
 
-.hr-especial{
+.cumulo__hr{
   margin: 14px 0;
   height: 2px;
+}
+
+/*==================================beneficios
+====================================================*/
+
+.beneficios__caja{
+  width: 320px;
+}
+
+.beneficios__parrafo{
+  margin-bottom: 14px;
+}
+
+.beneficios__cabezote p{
+
+  font-size: 6px;
+  text-align: center;
+  margin: 1px;
+  border-radius: 2px;
+  height: 26px;
+}
+
+.beneficios__cabezote .col-sm-5 p {
+  font-size: 12px;
+}
+
+.beneficios__fila .col-sm-5 p{
+  font-size: 9px;
+}
+
+.beneficios__fila .col-sm-2{
+  width: 31px;
+  height: 31px;
+}
+
+.beneficios__fila .col-sm-2 img{
+  width: 20px;
+  height: 20px;
+  
+}
+.beneficios__fila .col-sm-2 p {
+  font-size: 12px;
+}
+
+.beneficios__fila .beneficios__p-pequenio p {
+  font-size: 4px;
+  text-align: center;
+  font-weight: 600;
 }
 
 }
